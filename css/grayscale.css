@@ -252,11 +252,35 @@ a:focus {
     padding-top: 100px;
 }
 
-.portfolio-section {
+.project_1-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/portfolio-bg.jpg) no-repeat center center scroll;
+    background: url(../img/project_1-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.project_2-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/project_1-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.project_3-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/project_3-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -275,7 +299,13 @@ a:focus {
         padding-top: 250px;
     }
 
-    .portfolio-section {
+    .project_1-section {
+        padding: 100px 0;
+    }
+    .project_2-section {
+        padding: 100px 0;
+    }
+    .project_3-section {
         padding: 100px 0;
     }
 
