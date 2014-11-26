@@ -324,19 +324,21 @@ a:focus {
     transition: all .3s ease-in-out;
 }
 
-.btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: #219ab3;
-}
-
-.btn-default:hover,
-.btn-default:focus {
+.btn-default  {
     border: 1px solid #219ab3;
     outline: 0;
     color: #000;
+    background-color: #219ab3;
+}
+
+
+.btn-default:hover,
+.btn-default:focus{
+    border: 1px solid #219ab3;
+    color: #219ab3;
     background-color: transparent;
 }
+
 
 ul.banner-social-buttons {
     margin-top: 0;
