@@ -226,7 +226,7 @@ a:focus {
    display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0;
     color: #fff;
     background: url(../img/project_1-bg.jpg) no-repeat center center scroll;
     background-color: #000;
@@ -240,7 +240,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: 0;
     color: #fff;
     background: url(../img/project_2-bg.jpg) no-repeat center center scroll;
     background-color: #000;
