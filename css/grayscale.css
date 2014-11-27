@@ -144,7 +144,6 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    text-shadow: 1px 1px 2px rgba(96, 96, 96, 0.80);
 }
 
 .intro .intro-body {
@@ -160,6 +159,7 @@ a:focus {
 
 .intro .intro-body .intro-text{
     text-shadow: 1px 1px 2px rgba(96, 96, 96, 0.80); 
+    text-align: right;
     
 }
 
