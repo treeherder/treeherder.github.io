@@ -158,7 +158,7 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
 }
-p.intro-text { margin-left: 15px; }
+p.intro-text { text-shadow: 1px 1px 2px rgba(96, 96, 96, 0.40); }
 
 @media(min-width:767px) {
     .intro {
