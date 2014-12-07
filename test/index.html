@@ -10,11 +10,13 @@ height: 400px;
 }
 </style>
  
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=AIzaSyCcTIrT1yUcmvxuuOaYOFwd3R7gVDiUK8g"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&key=
+AIzaSyCcTIrT1yUcmvxuuOaYOFwd3R7gVDiUK8g"></script>
+<script>
 <script>
 var mylocation = {
-'latitude': 47.66,
-'longitude': -122.355
+'latitude': 37.8044,
+'longitude': 122.2708
 };
 var map;
 function initialize() {
@@ -26,7 +28,7 @@ mapTypeId: google.maps.MapTypeId.ROADMAP
 }
 var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 // This needs to be the Full URL - not a relative URL
-var kmlPath = "http://web-apprentice-demo.craic.com/assets/maps/fremont.kml";
+var kmlPath = "http://treeherder.github.io/maps/wifi.kml";
 // Add unique number to this url - as with images - to avoid caching issues during development
 var urlSuffix = (new Date).getTime().toString();
 var layer = new google.maps.KmlLayer(kmlPath + '?' + urlSuffix );
